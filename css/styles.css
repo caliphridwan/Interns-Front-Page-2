@@ -22,6 +22,11 @@ header{
     display:flex;
     justify-content:left;
 }
+.logo h2{
+    text-shadow: 1px 2px red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.9rem;
+}
 header img{
     width: 60px;
     height:80%;
@@ -59,16 +64,19 @@ header a:last-child{
 .texts{
     position: absolute;
     top: 13rem;
-    left: 5rem;
+    left: 7rem;
 }
 .texts h1{
     font-size: 5.4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* margin-top: 5rem; */
     word-spacing: .5rem;
+    text-shadow: 1px 2px red;
 }
 h3{
-    color:rgb(44, 42, 42)
+    color:rgb(44, 42, 42);
+    text-shadow: 1px 1px black;
+    /* background-color:white; */
 }
 button{
     background-color: red;
