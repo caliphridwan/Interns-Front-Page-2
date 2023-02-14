@@ -8,13 +8,13 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    height: 15vh;
+    height: 13vh;
 }
 .main-body{
     background-image: url("../images/web5.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    height: 85vh;
+    height: 87vh;
     width:100%;
 }
 .logo{
