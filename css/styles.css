@@ -20,21 +20,22 @@ header{
 .logo{
     width: 30vw;
     display:flex;
-    justify-content:left;
+    
 }
+
+.logo img{
+    width: 60px;
+    height:80%; 
+}
+
 .logo h2{
     text-shadow: 1px 2px red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.9rem;
 }
-header img{
-    width: 60px;
-    height:80%;
-    
-}
+
 header h2{
     display:flex;
-    justify-content: center;
     align-items: center;
 }
 header .anchors{
@@ -49,8 +50,8 @@ header a{
     color:black;
    font-weight:bolder;
    font-family: Arial, Helvetica, sans-serif;
-
 }
+
 header a:last-child{
     background-color: red;
     color:white;
@@ -58,26 +59,27 @@ header a:last-child{
     border-radius: 5px;
 }
 .main-body .texts{
-    width: 37%;
+    max-width: 37%;
     height:50%;
-}
-.texts{
     position: absolute;
     top: 13rem;
     left: 7rem;
 }
+
 .texts h1{
     font-size: 5.4rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* margin-top: 5rem; */
     word-spacing: .5rem;
     text-shadow: 1px 2px red;
 }
+
 h3{
+    text-align: justify;
     color:rgb(44, 42, 42);
     text-shadow: 1px 1px black;
-    /* background-color:white; */
+    
 }
+
 button{
     background-color: red;
     color:white;
